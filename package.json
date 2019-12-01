@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "generate": "tree-sitter generate",
+    "test": "tree-sitter test"
+  },
+  "dependencies": {
+    "nan": "^2.14.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1",
+    "tree-sitter-cli": "^0.15.14"
+  }
+}
