@@ -1,7 +1,13 @@
 {
   "scripts": {
     "generate": "tree-sitter generate",
-    "test": "tree-sitter test"
+    "test": "tree-sitter test",
+    "web-ui": "tree-sitter web-ui",
+    "generate-wasm": "tree-sitter generate-wasm",
+    "parse": "tree-sitter parse",
+    "query": "tree-sitter query",
+    "preui": "yarn generate && yarn generate-wasm",
+    "ui": "yarn web-ui"
   },
   "dependencies": {
     "nan": "^2.14.0"
