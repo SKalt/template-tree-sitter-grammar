@@ -1,3 +1,4 @@
+/* global seq, choice, repeat, repeat1, optional, prec, token, alias, field */
 module.exports = grammar({
   name: "GRAMMAR_NAME",
   rules: {
